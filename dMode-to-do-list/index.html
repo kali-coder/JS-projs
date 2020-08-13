@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>TO-DO-LISTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light" id="body">
+    
+    <img class="icon" id="icon" src="nightNdark.png" alt="darkmode"  onclick="darkMode()" >
+    <div class="centerDiv">
+        <div class="header" id="header">
+            <h1 class="h1" id="h1">TO-DO-LISTS</h1>
+            <div class = "input-bar">
+                <input type="text" class="input" id="myInput" placeholder="Write Something.... Do Something....">
+                <span class="addBtn" id="addBtn" onkeydown="keycode(event)" onclick="addElement()">+</span>
+            </div>
+        </div>
+        <div>
+            <ul id = "myUL" class="ul" style="list-style-type: none;">
+                <li class="checked">Type whatever you want to do in the above bar. </li>
+                <li>Click on the "+" button to add the item to the list. </li>
+                <li>If you finished doing that work, click on the item to check it.</li>
+                <li>If you wish to not see the item, click on the "X" button.</li>
+            </ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,274 @@
+body{
+    background-image: url(lwp.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.icon{
+    height: 100px;
+    width: 100px;
+}
+
+.h1{
+    color: #001a00;
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.ul{
+    margin: 0;
+    padding: 0;
+}
+
+.ul li{
+    cursor: pointer;
+    padding: 12px 8px 12px 40px;
+    position: relative;
+    background: #99ff99;
+    font-size: 18px;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ul li:last-child{
+    border-radius: 0 0 16px 16px;
+}
+
+.ul li:nth-child(odd){
+    background: #ccffcc;
+}
+
+.ul li:hover{
+    background: #ddd;
+}
+
+.ul li.checked{
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+
+}
+
+.ul li.checked::before{
+    content: "";
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    height: 15px;
+    width: 7px;
+    transform: rotate(45deg);
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover{
+    background-color: #f44336;
+    color: white;
+}
+
+.header{
+    background-color: #00cc44;
+    text-align: center ; 
+    padding: 30px 40px;  
+    color: white;
+    border-radius: 16px 16px 0 0 ;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+ 
+input {
+    margin: 0;
+    border: 3px solid #001a00;
+    border-right: 0;
+    border-radius: 16px 0 0 16px ;
+    width: 50%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    background-color: #ccffcc;
+}
+  
+
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #85e085;
+    color: black;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0 16px 16px 0; 
+    border: 3px solid #001a00  ;
+    border-left: 0;   
+}
+  
+.addBtn:hover {
+    background-color: #2aa22a;
+    
+}
+
+
+
+.centerDiv{
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    margin: auto;
+    width: 50%;
+    margin: 20px ;
+    text-align: center;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.dark{
+    background-image: url(dwp.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.d-h1{
+    color:#330033;
+}
+
+.d-ul{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.d-ul li:last-child{
+    border-radius: 0 0 16px 16px;
+}
+
+.d-ul li{
+    cursor: pointer;
+    padding: 12px 8px 12px 40px;
+    position: relative;
+    background: #e699ff;
+    font-size: 18px;
+    
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.d-ul li:nth-child(odd){
+    background: #f3ccff;
+}
+
+.d-ul li:hover{
+    background: #ddd;
+}
+
+.d-ul li.checked{
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+
+}
+
+.d-ul li.checked::before{
+    content: "";
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    height: 15px;
+    width: 7px;
+    transform: rotate(45deg);
+}
+
+
+
+.d-header{
+    background-color: #9900cc;
+    text-align: center ; 
+    padding: 30px 40px;  
+    color: white;
+    border-radius: 16px 16px 0 0;
+    
+}
+
+.d-header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+ 
+.d-input {
+    margin: 0;
+    border: 3px solid #1a001a;
+    border-right: 0;
+    border-radius: 16px 0 0 16px ;
+    width: 50%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    background-color: #383735;
+    color: white;
+   
+}
+  
+.d-input::placeholder{
+    color: white;
+}
+
+.d-addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9b3ff;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0 16px 16px 0; 
+    border: 3px solid #1a001a ;
+    border-left: 0;   
+}
+  
+.d-addBtn:hover {
+    background-color: #bf80ff;
+    
+}
+
+li{
+    text-align: left;
+}
+

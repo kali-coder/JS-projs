@@ -1,5 +1,3 @@
-//ennum practice pannanum
-
 var myNodeList = document.getElementsByTagName("li");
 for(var i = 0; i<myNodeList.length;i++){
     var span = document.createElement("span");

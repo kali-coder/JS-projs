@@ -59,9 +59,9 @@ ip.addEventListener("keydown",function(e){
 });
 
 
-function classChanger(id,classTochange) {
+/*function classChanger(id,classTochange) {
     var element = document.getElementById(id);
-    element.classList.toggle(classTochange)
+    element.classList.toggle(classTochange);
     
 }
 
@@ -72,6 +72,16 @@ function darkMode() {
     classChanger("myUL","d-ul");
     classChanger("addBtn","d-addBtn");
     classChanger("h1","d-h1");    
+}*/
+
+
+function darkMode() {
+    var id = ["body","myInput","header","myUL","addBtn","h1"];
+    var classTochange = ["dark","d-input","d-header","d-ul","d-addBtn","d-h1"]
+
+    for(var j = 0; j< id.length;j++){
+        var element = document.getElementById(id[j]);        
+        element.classList.toggle(classTochange[j]);
+    }
+
 }
-
-

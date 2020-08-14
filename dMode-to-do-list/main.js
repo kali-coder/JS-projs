@@ -30,7 +30,7 @@ function addElement() {
     var t = document.createTextNode(inputValue);
     li.appendChild(t);
     if(inputValue === ""){
-        alert("un computer na un ishta mayiruku pannuviya?");
+        alert("Write something before adding an item.");
     } else{
         document.getElementById("myUL").appendChild(li);
     }
